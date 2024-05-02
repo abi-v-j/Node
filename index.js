@@ -17,7 +17,7 @@ app.listen(port, () => {
 });
 
 // Example route for testing purposes
-app.get("/Add", (req, res) => {
+app.get("/Example", (req, res) => {
   res.send({
     message: "Hai", // Send a simple JSON response with a message
   });
